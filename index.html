@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 8: Home</title>
+</head>
+<body>
+	<h1>Muhammad Malik</h1>
+	<h4>Go To:
+		<a href="templates/MoreImages.html">More Images</a>
+	</h4>
+	<figure>
+		<img src="images/MMChildhood.jpg" width="400" height="400" alt="A picture of myself as a young child wearing shades, tongue out, pretending to be cool.">
+		<figcaption id="figCaption1">A photo capturing my creative imagination and a constant reminder of the swagger I once had.</figcaption>
+	</figure>
+	<button onclick="textToAppear()">Show Caption</button>
+	<button onclick="textToDisappear()">Hide Caption</button>
+	<script type="text/javascript">
+		var x = document.getElementById("figCaption1").innerHTML;
+		function textToAppear() {
+			document.getElementById("figCaption1").innerHTML= x;
+		}
+		var y = "";
+		function textToDisappear() {
+			document.getElementById("figCaption1").innerHTML= y;
+		}
+	</script>
+
+
+	<figure>
+		<img src="images/CricketBallCologne.jpg" width="400" height="401" alt="Wasim Akram Men's Cologne packaged in the shape of a cricket ball with the number 414 engraved on it.">
+		<figcaption id="figCaption2">Three encompasing aspects of my life: One of my favourite sports, my favourite player, and cologne for mankind's eternal struggle to smell good.</figcaption>
+	</figure>
+
+		<button onclick="figTwoAppear(a)">Show Caption</button>
+	<button onclick="figTwoDisappear(b)">Hide Caption</button>
+	<script type="text/javascript">
+		var a = document.getElementById("figCaption2").innerHTML;
+		function figTwoAppear() {
+			document.getElementById("figCaption2").innerHTML= a;
+		}
+		var b = "";
+		function figTwoDisappear() {
+			document.getElementById("figCaption2").innerHTML= b;
+		}
+	</script>
+
+
+	<figure>
+		<img src="images/rabbit.jpg" width="400" height="500" alt="Brown and White bunny with one ear standing up.">
+		<!-- NOTE: If ever need to use this code for future assignments a "SMALL" tag is used here. May want to change that and use CSS for this particular info. -->
+		<figcaption id="figCaption3"> <p> <small>Source: @sandym10 on <i>Unsplash</i> </small> </p> I grew up with many rabbits in Pakistan, some quite like this one, and hope to have one just like this one in the future.</figcaption>
+	</figure>
+
+	<button onclick="figThreeAppear(c)">Show Caption</button>
+	<button onclick="figThreeDisappear(d)">Hide Caption</button>
+	<script type="text/javascript">
+		var c = document.getElementById("figCaption3").innerHTML;
+		function figThreeAppear() {
+			document.getElementById("figCaption3").innerHTML= c;
+		}
+		var d = "";
+		function figThreeDisappear() {
+			document.getElementById("figCaption3").innerHTML= d;
+		}
+	</script>
+
+
+	<figure>
+		<img src="images/lordscricketground.jpg" width="400" height="305.625" alt="Lord's Cricket Ground, also known as the Home of Cricket. Image contains a high-altitude view of the ground during a first class cricket match.">
+		<figcaption id="figCaption4"> <p> <small>Source: Hugh Chevallier</small> </p> Cricket at its finest: a five-day long Test Match at the home ground of cricket. A test of consistency, determination, focus and patience.</figcaption>
+		
+	</figure>
+
+		<button onclick="figFourAppear(e)">Show Caption</button>
+	<button onclick="figFourDisappear(f)">Hide Caption</button>
+	<script type="text/javascript">
+		var e = document.getElementById("figCaption4").innerHTML;
+		function figFourAppear() {
+			document.getElementById("figCaption4").innerHTML= e;
+		}
+		var f = "";
+		function figFourDisappear() {
+			document.getElementById("figCaption4").innerHTML= f;
+		}
+	</script>
+
+
+	<figure>
+		<img src="images/peacockthrowback.jpg" width="300" height="300" alt="A picture of myself as a young child unamused sitting next to a peacock spreading its feathers.">
+		<figcaption id="figCaption5">Growing up with rabbits, a peacock and a peahen I developed an appreciation for the various animal species in the world. That appreciation is just not apparent here.</figcaption>
+	</figure>
+
+			<button onclick="figFiveAppear(g)">Show Caption</button>
+	<button onclick="figFiveDisappear(h)">Hide Caption</button>
+	<script type="text/javascript">
+		var g = document.getElementById("figCaption5").innerHTML;
+		function figFiveAppear() {
+			document.getElementById("figCaption5").innerHTML= g;
+		}
+		var h = "";
+		function figFiveDisappear() {
+			document.getElementById("figCaption5").innerHTML= h;
+		}
+	</script>
+
+</body>
+</html>
